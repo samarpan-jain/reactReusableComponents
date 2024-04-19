@@ -1,0 +1,15 @@
+nav a{
+    text-align: center;
+    display: block;
+    padding: 10px 0px;
+}
+
+nav a.active{
+    background-color: green;
+    color: #fff;
+}
+
+nav a:hover:not(.active) {
+    background-color: #888;
+    color: white;
+}
